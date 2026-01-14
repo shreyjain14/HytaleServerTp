@@ -1,0 +1,9 @@
+{
+  "Group": "me.shreyjain",
+  "Name": "ServerTp",
+  "Version": "1.0.0",
+  "Main": "me.shreyjain.serverTp.ServerTpPlugin",
+  "Authors": [{
+    "Name": "Shrey Jain"
+  }]
+}

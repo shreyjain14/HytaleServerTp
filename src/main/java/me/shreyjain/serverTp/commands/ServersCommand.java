@@ -6,6 +6,7 @@ import javax.annotation.Nonnull;
 
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
+import com.hypixel.hytale.protocol.GameMode;
 import com.hypixel.hytale.server.core.Message;
 import com.hypixel.hytale.server.core.command.system.CommandContext;
 import com.hypixel.hytale.server.core.command.system.basecommands.AbstractPlayerCommand;
@@ -30,6 +31,7 @@ public class ServersCommand extends AbstractPlayerCommand {
         super("servers", "List all available servers");
         this.manager = manager;
         this.config = config;
+        this.setPermissionGroup(GameMode.Adventure);
     }
 
     @Override
